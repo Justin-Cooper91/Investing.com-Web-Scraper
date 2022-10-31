@@ -43,7 +43,7 @@ def scraper(t):
     print(data)
     return
 
-schedule.every().day.at("09:33").do(scraper,'It is 09:33')
+schedule.every().day.at("09:30").do(scraper,'It is 09:30')
 while True:
     schedule.run_pending()
     time.sleep(60)
