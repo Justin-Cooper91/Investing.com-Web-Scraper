@@ -1,10 +1,11 @@
 # Investing.com-Web-Scraper
-Web Scraper that downloads top gainers in NYSE and Nasdaq at the markets open (9:30 EST).
+Web Scraper that downloads both the top gainers and top losers in NYSE and Nasdaq at the markets open (9:30 EST).
 Code can be modified without much hassle to get information from any of the tables on investing.com 
 
 # How to use the code
 To change the time at which the data is scraped, simply change all instances of 9:30 to whatever time you see fit
-The Code automatically uploads into Json format, to find it in your files just search for the document title stated in the Main Code
+The Code automatically uploads into JSON format, to find it in your files just search for the document title stated in the Main Code
+Two seperate JSON files are downloaded when code is run, one for the top losers and one for the top gainers
 You must download libraries Pandas, Requests, and Beautiful Soup before code can run
 The code will time out unless you put in additioal loop functions or mess with the terminal in other ways
 
