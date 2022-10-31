@@ -6,6 +6,7 @@ Code can be modified without much hassle to get information from any of the tabl
 To change the time at which the data is scraped, simply change all instances of 9:30 to whatever time you see fit
 The Code automatically uploads into Json format, to find it in your files just search for the document title stated in the Main Code
 You must download libraries Pandas, Requests, and Beautiful Soup before code can run
+The code will time out unless you put in additioal loop functions or mess with the terminal in other ways
 
 # Request
 I am happy for anyone to use this code as they please, all I ask is that you let me know how you use it
